@@ -6,29 +6,29 @@ export  default class Cursos {
         this.inscritos = []
     }
     
-    get nombre(){
+    getNombre(){
         return this.nombre
     }
-    get poster(){
+    getPoster(){
         return this.poster
     }
-    get clases(){
+    getClases(){
         return this.clases
     }
-    get inscritos(){
+    getInscritos(){
         return this.inscritos
     }
 
-    set nombre(nombre){
+    setNombre(nombre){
         this.nombre = nombre
     }
-    set poster(poster){
+    setPoster(poster){
         this.poster = poster
     }
-    set clases(clases){
+    setClases(clases){
         this.clases = clases
     }
-    set inscritos(inscritos){
+    setInscritos(inscritos){
         this.inscritos = inscritos
     }
 
