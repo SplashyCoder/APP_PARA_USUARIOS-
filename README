@@ -1,0 +1,7 @@
+Esta aplicacion es para clasifcar los tres tipos de usuarios en un plataforma de clases online ademas de poder crear los cursos de la misma.
+Los usuarios son clasificados entre profesores y usuarios.
+Los usuarios deben tener: nombre, apellido y correo 
+Los estudiantes ademas el estado de su suscripcion y los cursos vistos.
+Los profesores ademas tienen que tener la califiacicion que le dan los estudiantes y los cursos que imparten.
+
+
