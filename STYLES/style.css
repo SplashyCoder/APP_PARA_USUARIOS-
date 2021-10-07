@@ -1,0 +1,11 @@
+.box{
+    background-color: wheat;
+    display:inline-flexbox;
+}
+.box h1{
+    position: relative;
+    text-align: center;
+}
+.form-item{
+    display: inline-flex;
+}

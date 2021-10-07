@@ -5,7 +5,7 @@ const css = new Cursos ("Css desde cero","data:image/png;base64,iVBORw0KGgoAAAAN
 
 const element = document.getElementById("cursos")
 
-function showCursos(curso) {
+const showCursos = (curso) => {
     const semielement = document.createElement("div")
 
     semielement.innerHTML =`
@@ -15,5 +15,14 @@ function showCursos(curso) {
     `
     element.appendChild(semielement)
 }
-showCursos(html)
-showCursos(css)
+
+const formulario = document.getElementById("formCursos")
+    formulario.addEventListener("submit",e => {
+        e.preventDefault()
+        const target = e.target
+        const curso = new Cursos(target.nombreCurso.value, target.posterCurso.value, target.clasesCurso.value )
+        showCursos(curso)
+    })
+
+//showCursos(html)
+// showCursos(css)

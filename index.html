@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./STYLES/
+    
+    style.css">
     <title>Cursos</title>
 </head>
 <body>
-    <div class = "ed-grid m-grid-4 s-grid-2" id = "cursos" >    
+    <div class = "box" id = "cursos" >    
+        <h1>ED cursos</h1>
+        <form id="formCursos">
+            <div class="curso">
+                <div class="form-item">
+                    <label>
+                        Nombre
+                        <input type="text" name="nombreCurso" required>
+                    </label>
+                </div>
+                <div class="form-item">
+                    <label>
+                        Poster
+                        <input type="text" name="posterCurso" required>
+                    </label>
+                </div>
+                <div class="form-item">
+                    <label>
+                        Clases
+                        <input type="number" min=1 name="clasesCurso" required>
+                    </label>
+                </div>
+                <div class="form-item">
+                        <input class="button" type="submit" value="crear curso" >
+                </div>
+            </div>
+        </form>
     </div>
     <script type="module" src="./scripts/index.js"></script>
 </body>
